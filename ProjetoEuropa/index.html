@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos na Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            flex-basis: calc(33.33% - 2rem);
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares Turísticos na Europa</h1>
+        <p>Descubra alguns dos destinos mais incríveis para visitar na Europa.</p>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="paris.jpg" alt="Paris, França">
+            <h2>Paris, França</h2>
+            <p>A cidade do amor e da luz, lar da Torre Eiffel, do Louvre e da moda mundial.</p>
+        </div>
+        <div class="card">
+            <img src="santorini.jpg" alt="Santorini, Grécia">
+            <h2>Santorini, Grécia</h2>
+            <p>Ilhas deslumbrantes com vistas panorâmicas, casinhas brancas e mar cristalino.</p>
+        </div>
+        <div class="card">
+            <img src="rome.jpg" alt="Roma, Itália">
+            <h2>Roma, Itália</h2>
+            <p>Uma viagem no tempo com o Coliseu, o Vaticano e a deliciosa culinária italiana.</p>
+        </div>
+        <!-- Adicione mais cards de outros lugares turísticos aqui -->
+    </div>
+</body>
+</html>
