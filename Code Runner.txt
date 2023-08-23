@@ -1,0 +1,4 @@
+Code Runner
+ Ela permite executar, com um único clique, um código selecionado ou um código em 
+ um arquivo salvo. O mais interessante do Code Runner é que você pode executar código 
+ de praticamente qualquer tipo de Linguagem que esteja configurada no seu computador.
